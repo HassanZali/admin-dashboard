@@ -1,11 +1,11 @@
 const sidebar = document.querySelector(".side-bar button");
 sidebar.addEventListener("click", function(event) {
-   //document.querySelector(".side-bar").classList.add("collapse")
-//})
-//const expandButton = document.querySelector(".expand-button");
-//expandButton.addEventListener("click", function(event) {
-    //document.querySelector(".side-bar").classList.remove("collapse")
-//})
+   document.querySelector(".side-bar").classList.add("collapse")
+})
+const expandButton = document.querySelector(".expand-button");
+expandButton.addEventListener("click", function(event) {
+    document.querySelector(".side-bar").classList.remove("collapse")
+})
 
 const notificationButton = document.querySelector(".notification-button")
 notificationButton.addEventListener("click", function(event) {
